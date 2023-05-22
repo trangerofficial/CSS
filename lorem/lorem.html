@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My HTML Page</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial;
+    }
+
+    h1 {
+      text-align: center;
+      color: blueviolet;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .lorem {
+      background-color: #f2f2f3;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .radio-group {
+      margin-bottom: 10px;
+    }
+
+    .radio-label {
+      margin-right: 10px;
+    }
+
+    .button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Its prolly latin</h1>
+  <p></p>
+
+  <div class="lorem">
+    <h2>Lorem Ipsum</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Nulla fringilla vulputate orci, nec dignissim dolor varius a.</p>
+  </div>
+
+  <div class="lorem">
+    <h2>Lorem Ipsum</h2>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+    <p>At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+  </div>
+
+  <div class="radio-group">
+    <input type="radio" name="option" id="option1" checked>
+    <label class="radio-label" for="option1">Option 1</label>
+
+    <input type="radio" name="option" id="option2">
+    <label class="radio-label" for="option2">Option 2</label>
+
+    <input type="radio" name="option" id="option3">
+    <label class="radio-label" for="option3">Option 3</label>
+  </div>
+
+  <button class="button">Generate Lorem</button>
+  <button class="button">Reset</button>
+</body>
+</html>
