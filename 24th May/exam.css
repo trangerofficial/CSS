@@ -1,0 +1,37 @@
+body {
+    background-color: whitesmoke ;
+    margin: 20px;
+    text-decoration: double;
+   
+    
+
+}
+h1{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   color: dimgray;
+   text-decoration: underline;
+}
+button{
+    background-color: lightblue;
+   border-radius: 20px; 
+    padding: 10px 20px;
+   margin-left: 10px; 
+   outline-style: hidden;
+   outline-color: aquamarine;
+}
+button:hover{
+   background-color: powderblue;
+}
+select{
+   margin-left: 20px;
+   
+}
+input{
+   margin-left: 20px;
+}
+fieldset{
+    margin: 20px;
+    background-attachment: fixed;
+    background-image: url(background-image.jpg);
+}
