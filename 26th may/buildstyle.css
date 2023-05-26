@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    background-color: rgb(57, 21, 90);
+    height: 120px;
+    scroll-behavior: smooth;
+}
+header ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 40px;
+    animation: forwards;
+}
+header h2{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+#background{
+    background-image: url(./assets/laboheme.png);
+    height: 434px;
+    color: black;
+ 
+
+}
+#bottom{
+    background-color: deepskyblue;
+    height: 120px;
+}
+#main{ 
+    color: ghostwhite;
+    font-size: largest;
+    justify-self: center;
+  
+}
+select{
+    background-color: rgb(57, 21, 90);
+    border-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
